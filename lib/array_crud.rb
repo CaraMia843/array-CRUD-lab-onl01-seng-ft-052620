@@ -23,7 +23,7 @@ end
 
 def remove_element_from_start_of_array(array)
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
-    expect(remove_element_from_start_of_array(array)).to eq("wow")
+    array.shift
   end
 end
 end
