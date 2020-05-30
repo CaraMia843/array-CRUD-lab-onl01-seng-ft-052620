@@ -18,7 +18,7 @@ end
 
 def remove_element_from_end_of_array(array)
   cats = ["a", "b", "c", "d"]
-  cats.pop("3")
+  cats.pop "d"
 end
 
 def remove_element_from_start_of_array(array)
